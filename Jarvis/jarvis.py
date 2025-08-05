@@ -1,7 +1,3 @@
-import sounddevice as sd
-import wavio
-import speech_recognition as sr
-
 def takecommand() -> str:
     """Takes voice input using sounddevice and recognizes it."""
     fs = 44100  # Sample rate
